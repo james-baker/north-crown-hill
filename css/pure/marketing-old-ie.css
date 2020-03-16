@@ -36,11 +36,11 @@ label {
  */
 
 .l-box {
-    padding: 1em;
+    padding: .7em;
 }
 
 .l-box-lrg {
-    padding: 2em;
+    padding: 1.5em;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
@@ -112,6 +112,7 @@ a.pure-button-primary {
     color: white;
     font-weight: 400;
     font-size: 120%;
+    padding: .25em .7em;
 }
 
 .home-menu .pure-menu-selected a {
@@ -234,7 +235,7 @@ a.pure-button-primary {
 /* This is the class used for the footer */
 
 .footer {
-    background: #111;
+    background: #1f3a30;;
     color: white;
     position: fixed;
     bottom: 0;
