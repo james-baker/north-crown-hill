@@ -18,6 +18,6 @@ export default ({ children }) => (
         </ul>
       </div>
     </div>
-    {children}
+    <div className="fixed-nav-space"></div>
   </div>
 )

@@ -6,6 +6,7 @@
 .home-menu {
   background: #1f3a30;
 }
+
 .pure-menu.pure-menu-fixed {
   /* Fixed menus normally have a border at the bottom. */
   border-bottom: none;
@@ -17,7 +18,11 @@
   color: white;
   font-weight: 400;
   font-size: 120%;
-  padding: .25em .7em;
+  padding: 0 .7em;
+}
+
+.pure-menu-link {
+  padding: 0 1em;
 }
 
 .home-menu .pure-menu-selected a {
@@ -43,4 +48,8 @@
   .home-menu ul {
       float: right;
   }
+}
+
+.fixed-nav-space {
+  height: 52px;
 }
