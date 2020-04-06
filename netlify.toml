@@ -1,0 +1,17 @@
+# let's try this out, based on https://docs.netlify.com/configure-builds/file-based-configuration/#sample-file
+[build]
+  # Default build command.
+  command = "echo 'no build context'"
+
+[build.environment]
+  NODE_VERSION = "12.16.1"
+
+# Production context: all deploys from the Production branch set in your site's
+# deploy contexts will inherit these settings.
+[context.production]
+  command = ""
+
+# Specific branch context: all deploys from this specific branch will inherit
+# these settings.
+[context.gatsby] # 'staging' is a branch name
+  command = "gatsby build"

@@ -1,0 +1,13 @@
+Windows clean environment setup
+install VS Code
+install node: https://nodejs.org
+install git: https://www.atlassian.com/git/tutorials/install-git#windows
+in admin PS: Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+npm install -g gatsby-cli
+gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world
+configure VSCode install "Prettier": https://www.gatsbyjs.org/tutorial/part-zero/
+npm install --save gatsby-plugin-google-analytics
+npm install --save gatsby-source-filesystem
+npm install --save gatsby-image gatsby-transformer-sharp gatsby-plugin-sharp
+npm install --save gatsby-transformer-remark
+configure VSCode install bungcip.better-toml

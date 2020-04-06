@@ -1,0 +1,27 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.7em;
+  background-color: #95ccac;
+  color: #1f3a30;
+  font-size: 13px;
+}
+
+@media (min-width: 48em) {
+  body {
+      font-size: 16px;
+  }
+}
+
+  /* We can align the menu header to the left, but float the
+  menu items to the right. */
+  .home-menu {
+      text-align: left;
+  }
+      .home-menu ul {
+          float: right;
+      }
