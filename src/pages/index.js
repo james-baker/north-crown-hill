@@ -7,13 +7,6 @@ import Ribbon from "../components/ribbon"
 
 export default ({ data }) => (
   <Layout>
-    <div>
-      Hello world!
-      <Ribbon>testing a ribbon.</Ribbon>
-      <p>
-        <Link to="/about">About</Link>
-      </p>
-    </div>
     <div className="splash-container">
       <div className="splash">
         <Img fixed={data.logo.childImageSharp.fixed} alt="NCH logo" />
@@ -81,18 +74,20 @@ export default ({ data }) => (
         </div>
         <p>
           All data collection and handling is described by our{" "}
-          <a href="privacy.htm">privacy policy</a>.
+          <Link to="/privacy">privacy policy</Link>.
         </p>
 
-        <div className="ribbon l-box-lrg  is-center">
-          <h2 className="content-head content-head-ribbon">Want to join?</h2>
-          <p>
-            <a href="mailto:north.crown.hill@gmail.com"
-             className="pure-button pure-button-primary">
-              email north.crown.hill@gmail.com
-            </a>
-          </p>
-        </div>
+        <Ribbon>
+          <div className="l-box-lrg  is-center">
+            <h2 className="content-head content-head-ribbon">Want to join?</h2>
+            <p>
+              <a href="mailto:north.crown.hill@gmail.com"
+              className="pure-button pure-button-primary">
+                email north.crown.hill@gmail.com
+              </a>
+            </p>
+          </div>
+        </Ribbon>
 
         <h2 className="content-head is-center">Where is it?</h2>
         <div className="pure-g">
@@ -122,6 +117,10 @@ export default ({ data }) => (
             </a>
           </div>
         </div>
+      </div>
+      <div className="footer l-box is-center">
+        Established 2020-03-14, NCH is a neighborhood community support network in
+        Seattle, WA, USA.
       </div>
     </div>
   </Layout>

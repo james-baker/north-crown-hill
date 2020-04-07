@@ -11,3 +11,4 @@ npm install --save gatsby-source-filesystem
 npm install --save gatsby-image gatsby-transformer-sharp gatsby-plugin-sharp
 npm install --save gatsby-transformer-remark
 configure VSCode install bungcip.better-toml
+npm install --save @fortawesome/fontawesome-free

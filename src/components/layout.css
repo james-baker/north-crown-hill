@@ -107,7 +107,7 @@ a.pure-button-primary {
 
 /* We want to give the content area some more padding */
 .content {
-  padding: 1em 1em 3em;
+  padding: 1em;
 }
 
 /* This is the class used for the main content headers (<h2>) */
@@ -128,6 +128,13 @@ a.pure-button-primary {
 }
 .content-subhead i {
   margin-right: 7px;
+}
+
+/* This is the class used for the footer */
+.footer {
+  background: #1f3a30;;
+  color: white;
+  width: 100%;
 }
 
 @media (min-width: 48em) {
