@@ -52,7 +52,7 @@ export default ({ data }) => (
               <i className="fas fa-envelope"></i>
               Email Newsletter
             </h3>
-            <p>TBD-frequency neighborhood updates via Mailchimp email list</p>
+            <p>Almost-weekly neighborhood updates via Mailchimp email list</p>
           </div>
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
             <h3 className="content-subhead">
