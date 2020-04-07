@@ -13,4 +13,3 @@ npm install --save gatsby-transformer-remark
 configure VSCode install bungcip.better-toml
 npm install --save @fortawesome/fontawesome-free
 npm install --save gatsby-plugin-react-helmet react-helmet
-npm install --save tableau-api

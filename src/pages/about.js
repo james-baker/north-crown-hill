@@ -2,21 +2,17 @@ import React, { Component } from "react"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-import tableau from "tableau-api"
 import Layout from "../components/layout"
 
-//export default ({ data }) => {
 class AboutPage extends Component {
 
   componentDidMount() {  
-    const vizUrl = "https://public.tableau.com/views/OutreachStatus/OutreachStatus?:display_count=y&:toolbar=n";
-    const vizOptions = {
-        hideTabs: true,
-        hideToolbar: true,
-        width: "400px",
-        height: "510px"};
-    const vizContainer = this.vizContainer;  
-    new window.tableau.Viz(vizContainer, vizUrl, vizOptions);
+    let divElement = document.getElementById('viz1586295286655');
+    let vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='400px';vizElement.style.height='510px';
+    let scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
   }
 
   render() {
@@ -28,7 +24,11 @@ class AboutPage extends Component {
             of our mini-neighborhood. We need volunteers!</p>
         <p>Goal #1: Make one warm contact with every household in the area.</p>
 
-    <div ref={(div) => { this.vizContainer = div }}></div>  
+    <div class='tableauPlaceholder' id='viz1586295286655' style={{position: 'relative'}}>
+      <noscript><a href='https:&#47;&#47;www.northcrownhill.com'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ou&#47;OutreachStatus&#47;OutreachStatus&#47;1_rss.png' style={{border: 'none'}} /></a></noscript>
+      <object class='tableauViz' style={{display:'none'}}><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='OutreachStatus&#47;OutreachStatus' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ou&#47;OutreachStatus&#47;OutreachStatus&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object>
+    </div>
+    <div dangerouslySetInnerHTML={{__html: data.projectChangelog.childMarkdownRemark.html}}></div>
     <p>TODO list:
         <ul>
             <li>write subpages for newsletter, chat, directory, and improve main page</li>
