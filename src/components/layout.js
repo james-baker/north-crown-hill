@@ -9,7 +9,7 @@ import "./layout.css"
 
 export default ({ children }) => {
   const data = useStaticQuery(graphql`
-    query HeaderQuery {
+    query {
       site {
         siteMetadata {
           title
@@ -17,7 +17,7 @@ export default ({ children }) => {
       }
     }
   `)
-  
+
   return <>
   <Helmet>
     <title>{data.site.siteMetadata.title}</title>

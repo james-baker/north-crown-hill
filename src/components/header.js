@@ -4,7 +4,7 @@ import "./header.css"
 
 const ListLink = props => (
   <li className="pure-menu-item">
-    <Link to={props.to} className="pure-menu-link">{props.children}</Link>
+    <Link to={props.to} className="pure-menu-link" activeStyle={{ color: "white" }}>{props.children}</Link>
   </li>
 )
 export default ({ children }) => (
