@@ -17,6 +17,7 @@ module.exports = {
         siteSpeedSampleRate: 10
       },
     },
+    'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
