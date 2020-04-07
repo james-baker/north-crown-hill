@@ -7,6 +7,6 @@ Timeline so far:
 * Wednesday, March 18th: Canvassed western Dibble and 8th Ave
 * Thursday, March 19th: Added several folks from Mary Ave's block contact list
 * Saturday, March 21st: Canvassed on Alderbrook, 8th, 105th. Sent out first North Crown Hill News.
-* Sunday, March 22nd: Updated map address data. Wrote down [privacy policy](privacy.htm).
+* Sunday, March 22nd: Updated map address data. Wrote down [privacy policy](privacy/).
 * Monday, March 23rd: Arrange to take a 7-week sabbatical from my tech job, starting next week, to work on this project.
 * Saturday, March 28th: Rebuild website using Gatsby.js
