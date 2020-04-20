@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faClipboardList, faQuestion, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 import Layout from "../components/layout"
 import Ribbon from "../components/ribbon"
 
@@ -39,8 +41,8 @@ export default ({ data }) => (
         <div className="pure-g">
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
             <h3 className="content-subhead">
-              <i className="fas fa-mobile-alt"></i>
-              Chat App
+              <FontAwesomeIcon icon={faMobileAlt} />
+              &nbsp;Chat App
             </h3>
             <p>
               A <a href="https://slack.com/">Slack</a> chat app for real-time
@@ -49,15 +51,15 @@ export default ({ data }) => (
           </div>
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
             <h3 className="content-subhead">
-              <i className="fas fa-envelope"></i>
-              Email Newsletter
+              <FontAwesomeIcon icon={faEnvelope} />
+              &nbsp;Email Newsletter
             </h3>
             <p>Almost-weekly neighborhood updates via Mailchimp email list</p>
           </div>
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
             <h3 className="content-subhead">
-              <i className="fas fa-clipboard-list"></i>
-              Contact Directory
+              <FontAwesomeIcon icon={faClipboardList} />
+              &nbsp;Contact Directory
             </h3>
             <p>
               Getting connected to our neighbors, including the
@@ -66,8 +68,8 @@ export default ({ data }) => (
           </div>
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
             <h3 className="content-subhead">
-              <i className="fas fa-question"></i>
-              ...what else?
+              <FontAwesomeIcon icon={faQuestion} />
+              &nbsp;...what else?
             </h3>
             <p>We'll figure it out as we go. :-)</p>
           </div>
