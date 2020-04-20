@@ -12,6 +12,7 @@ export default ({ children }) => {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
@@ -20,7 +21,7 @@ export default ({ children }) => {
   return <>
   <Helmet>
     <title>{data.site.siteMetadata.title}</title>
-    <meta name="description" content="A neighborhood community support network."/>
+    <meta name="description" content={data.site.siteMetadata.description}/>
   </Helmet>
   <Header></Header>
   {children}

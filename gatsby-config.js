@@ -7,6 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: 'North Crown Hill',
+    description: "A neighborhood community support network in Seattle",
   },
   plugins: [
     {
