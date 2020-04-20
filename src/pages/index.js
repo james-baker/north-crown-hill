@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faClipboardList, faQuestion, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 import Layout from "../components/layout"
 import Ribbon from "../components/ribbon"
+import Footer from "../components/footer"
 
 export default ({ data }) => (
   <Layout>
@@ -120,10 +121,7 @@ export default ({ data }) => (
           </div>
         </div>
       </div>
-      <div className="footer l-box is-center">
-        Established 2020-03-14, NCH is a neighborhood community support network in
-        Seattle, WA, USA.
-      </div>
+      <Footer />
     </div>
   </Layout>
 )

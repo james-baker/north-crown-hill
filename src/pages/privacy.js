@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import Footer from "../components/footer"
 
 export default ({ data }) => (
   <Layout>
@@ -98,10 +99,6 @@ export default ({ data }) => (
       </ul>
       <p>&nbsp;</p>
     </div>
-
-    <div class="footer l-box is-center">
-      Established 2020-03-14, NCH is a neighborhood community support network in
-      Seattle, WA, USA.
-    </div>
+    <Footer />
   </Layout>
 )

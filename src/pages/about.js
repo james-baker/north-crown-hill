@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
+import Footer from "../components/footer"
 
 class AboutPage extends Component {
 
@@ -68,10 +69,7 @@ class AboutPage extends Component {
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     </div>
-    <div className="footer l-box is-center">
-      Established 2020-03-14, NCH is a neighborhood community support network in
-      Seattle, WA, USA.
-    </div>
+    <Footer />
   </Layout>
   }
 }
