@@ -18,3 +18,5 @@ Timeline so far:
 * April 12-16th: Coding to wire together the Twilio and Slack APIs
 * April 18th: Solved the last technical/coding hurdles for the phone hotline
 * April 19th: Finished off 8th and Alderbrook
+* April 21st: Real calls to test hotline
+* April 22nd: Add to [about](/about) page, add [hotline](/hotline) page

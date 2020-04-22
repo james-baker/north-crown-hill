@@ -22,8 +22,9 @@ class AboutPage extends Component {
     <div className="content">
     <h1>About this project</h1>
     <p>This is a self-organized, unincorporated, 100% volunteer effort to strengthen the social fabric 
-            of our mini-neighborhood. We need volunteers!</p>
-        <p>Goal #1: Make one warm contact with every household in the area.</p>
+            of our mini-neighborhood. Neighbor, this is for and by <i>you</i> however you can contribute!</p>
+
+    <p>Goal #1: Make one warm contact with every household in the area.</p>
 
     <div class='tableauPlaceholder' id='viz1586295286655' style={{position: 'relative'}}>
       <noscript><a href='https:&#47;&#47;www.northcrownhill.com'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ou&#47;OutreachStatus&#47;OutreachStatus&#47;1_rss.png' style={{border: 'none'}} /></a></noscript>
@@ -35,6 +36,7 @@ class AboutPage extends Component {
             <li>write subpages for newsletter, chat, directory, and improve main page</li>
         </ul>
     </p>
+    <div dangerouslySetInnerHTML={{__html: data.technical.childMarkdownRemark.html}}></div>
     <h1>About the organizer</h1>
     <div className="pure-g">
         <div className="l-box pure-u-1 pure-u-md-2-3 pure-u-lg-2-3">
@@ -79,6 +81,11 @@ export default AboutPage;
 export const query = graphql`
   query {
     projectChangelog: file(relativePath: { eq: "md/project-changelog.md" }) {
+      childMarkdownRemark {
+        html
+      }
+    }
+    technical: file(relativePath: { eq: "md/about-technical.md" }) {
       childMarkdownRemark {
         html
       }
