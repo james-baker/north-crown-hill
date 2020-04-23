@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Footer from "../components/footer"
 
@@ -7,20 +8,18 @@ export default ({ data }) => (
     <div class="content">
       <h1>Privacy Policy</h1>
       <p>
-        This describes the data handling practices of North Crown Hill regarding
-        data security and privacy.
+        This describes the data handling practices of North Crown Hill for
+        data security and privacy. Last updated 2020-04-23.
       </p>
       <h4>Public Data</h4>
       <p>
         These data are publicly displayed on the website:
         <ul>
           <li>The geographic locations of households within the NCH area.</li>
-          <li>
-            The contact status of each household, relative to our outreach
-            effort
+          <li>The contact status of each household, relative to our outreach effort
             <ul>
               <li>
-                Examples: Uncontacted, Left a flyer, Declined, Have Email...
+                Examples: Members, Non-members, Uncontacted, Left a flyer...
               </li>
             </ul>
           </li>
@@ -28,7 +27,7 @@ export default ({ data }) => (
         Our house numbers and locations are already public in greater detail on
         the King County Parcel Viewer, as well as Google Maps, etc. If you'd
         like your house or status changed or removed, please send an email
-        request.
+        request to <a href="mailto:north.crown.hill@gmail.com">north.crown.hill@gmail.com</a>.
       </p>
 
       <h4>Private Data</h4>
@@ -40,21 +39,18 @@ export default ({ data }) => (
           <li>Email address</li>
           <li>Phone number</li>
           <li>
-            True/false status of inclusion in: 1) Newsletter, 2) Chat, 3)
-            Directory
+            True/false status of participation in:
+            <ol>
+              <li>email <Link to="/newsletter/">newsletter</Link></li>
+              <li>neighborhood <Link to="/chat/">chat</Link></li>
+              <li>phone <Link to="/hotline/">hotline</Link></li>
+            </ol>
           </li>
           <li>Short notes about interactions, context, status</li>
         </ul>
         This information is kept confidential, and is <b>not</b> shared with
         neighbors except under the explicit request of the sharer. Last names
-        are deliberatly <b>not</b> recorded at all, so as to make our data less
-        valuable to any outside attacker.
-      </p>
-
-      <h4>Neighborhood Shared Data</h4>
-      <p>
-        The contact directory is not yet formed. When it is created, it will be
-        completely opt-in. Design is underway.
+        are deliberatly excluded from recording, as they are unneeded.
       </p>
 
       <h4>Email and Slack data handling</h4>
@@ -84,7 +80,7 @@ export default ({ data }) => (
         <li>There's no need to use your last name in Slack.</li>
         <li>
           Your profile picture in Slack doesn't need to be be "real" or contain
-          lots of identifying information.
+          identifying information.
         </li>
         <li>
           Message editing and deletion are enabled, so if you feel you've
@@ -96,6 +92,15 @@ export default ({ data }) => (
           information with specific people, use a Direct Message instead of
           posting in a channel.
         </li>
+        <li>
+          Administrators can not see or export your private messages. 
+          Please report any harrassment or abuse ASAP to <a href="mailto:north.crown.hill@gmail.com">north.crown.hill@gmail.com</a>
+        </li>
+      </ul>
+      <h4>Privacy Policy Changelog</h4>
+      <ul>
+        <li>2020-03-22 First version published</li>
+        <li>2020-04-23 Light wordage touch-up + adding links. No intentional policy change.</li>
       </ul>
       <p>&nbsp;</p>
     </div>
