@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faClipboardList, faQuestion, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone, faQuestion, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 import Layout from "../components/layout"
 import Ribbon from "../components/ribbon"
 import Footer from "../components/footer"
@@ -28,11 +28,7 @@ export default ({ data }) => (
           Let's pull together as a community.
         </p>
         <p className="splash-subhead">
-          Will you join in? <br />
-          <a href="mailto:north.crown.hill@gmail.com"
-            className="pure-button pure-button-primary">
-            email north.crown.hill@gmail.com
-          </a>
+          <h3><Link to="/join">Click here to join!</Link></h3>
         </p>
       </div>
     </div>
@@ -42,37 +38,31 @@ export default ({ data }) => (
         <div className="pure-g">
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
             <h3 className="content-subhead">
-              <FontAwesomeIcon icon={faMobileAlt} />
-              &nbsp;Chat App
+              <FontAwesomeIcon icon={faEnvelope} />&nbsp;Email Newsletter
             </h3>
-            <p>
-              A <a href="https://slack.com/">Slack</a> chat app for real-time
-              sharing of needs, news, and support for each other
+            <p>Periodic neighborhood updates with hyper-local Covid19 and NCH news</p>
+          </div>
+          <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 className="content-subhead">
+              <FontAwesomeIcon icon={faMobileAlt} />&nbsp;Chat App
+            </h3>
+            <p>A <a href="https://slack.com/">Slack</a> chat app serves as the neighbor-to-neighbor
+              communication hub for getting to know each other, and organizing/volunteering activity
             </p>
           </div>
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
             <h3 className="content-subhead">
-              <FontAwesomeIcon icon={faEnvelope} />
-              &nbsp;Email Newsletter
+              <FontAwesomeIcon icon={faPhone} />&nbsp;Community Hotline
             </h3>
-            <p>Almost-weekly neighborhood updates via Mailchimp email list</p>
-          </div>
-          <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3 className="content-subhead">
-              <FontAwesomeIcon icon={faClipboardList} />
-              &nbsp;Contact Directory
-            </h3>
-            <p>
-              Getting connected to our neighbors, including the
-              non-internet-enabled among us. Opt-in consent for data sharing.
+            <p>Dial the <Link to="/hotline">hotline</Link> if your neighbors could help you with anything! 
+              Volunteers will respond to your voicemail message.
             </p>
           </div>
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
             <h3 className="content-subhead">
-              <FontAwesomeIcon icon={faQuestion} />
-              &nbsp;...what else?
+              <FontAwesomeIcon icon={faQuestion} />&nbsp;...what else?
             </h3>
-            <p>We'll figure it out as we go. :-)</p>
+            <p>If you have an idea, <a href="mailto:north.crown.hill@gmail.com">share it!</a></p>
           </div>
         </div>
         <p>
@@ -82,13 +72,8 @@ export default ({ data }) => (
 
         <Ribbon>
           <div className="l-box-lrg  is-center">
-            <h2 className="content-head content-head-ribbon">Want to join?</h2>
-            <p>
-              <a href="mailto:north.crown.hill@gmail.com"
-              className="pure-button pure-button-primary">
-                email north.crown.hill@gmail.com
-              </a>
-            </p>
+            <h2 className="content-head content-head-ribbon">Want to get connected?</h2>
+            <h3><Link to="/join" className="pure-button pure-button-primary">Click here to join!</Link></h3>
           </div>
         </Ribbon>
 
