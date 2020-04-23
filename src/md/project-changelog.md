@@ -20,3 +20,4 @@ Timeline so far:
 * April 19th: Finished off 8th and Alderbrook
 * April 21st: Real calls to test hotline
 * April 22nd: Add to [about](/about) page, add [hotline](/hotline) page
+* April 23rd: Add a [join](/join) page, with a Google Form embedded to streamline signing up
