@@ -6,7 +6,7 @@
 
 body {
   line-height: 1.7em;
-  background-color: #95ccac;
+  background-color: #BEE3C2;
   color: #1f3a30;
   font-size: 13px;
 }
@@ -52,7 +52,7 @@ a.pure-button-primary {
  */
 
  .splash-container {
-  background: #95ccac;
+  background: #BEE3C2;
   z-index: 1;
   overflow: hidden;
   /* The following styles are required for the "scroll-over" effect */
@@ -101,12 +101,12 @@ a.pure-button-primary {
   width: 100%;
   min-height: 12%;
   z-index: 2;
-  background: #ddeee7;
+  background: #E3F3E5;
 }
 
 .content {
   padding: 1em;
-  background: #ddeee7;
+  background: #E3F3E5;
 }
 
 /* This is the class used for the main content headers (<h2>) */
