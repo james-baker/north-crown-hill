@@ -14,21 +14,20 @@ export default ({ data }) => (
       <div className="splash">
         <Img fixed={data.logo.childImageSharp.fixed} alt="NCH logo" />
         <h1>
-          A safety net of human connection
+          Building links of human connection
           <br />
-          in the time of Covid-19
+          in a time of risk and uncertainty
         </h1>
         <p className="splash-subhead">
-          We're all in this together. Let's build connections with our
-          neighbors, and support each other as we deal with the effects of the
-          Covid-19 epidemic. You might need some TP - or someone to feed your
-          pets if you're hospitalized. Or maybe you're comfortably working from
-          home and feel called to help those around you who have been
-          economically impacted by the distancing, quarantines, and shutdowns.
-          Let's pull together as a community.
+          We're all in this together, geographically! Let's serve and protect 
+          our neighbors in vulnerable demographics, share difficult-to-find supplies, 
+          and encourage one another. We can help each other minimize risk and 
+          stay safe, which helps <i>all</i> of us. Let's pull together as a community, 
+          build neighborly connections and support our little slice of Seattle as we 
+          deal with the effects of the Covid-19 epidemic.
         </p>
         <p className="splash-subhead">
-          <h3><Link to="/join/">Click here to join!</Link></h3>
+          <h3><Link to="/join/" className="pure-button pure-button-primary">Click here to join!</Link></h3>
         </p>
       </div>
     </div>
@@ -37,32 +36,26 @@ export default ({ data }) => (
         <h2 className="content-head is-center">What is it?</h2>
         <div className="pure-g">
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3 className="content-subhead">
-              <FontAwesomeIcon icon={faEnvelope} />&nbsp;Email Newsletter
-            </h3>
-            <p>Periodic neighborhood updates with hyper-local Covid19 and NCH news</p>
+            <h3 className="content-subhead"><FontAwesomeIcon icon={faEnvelope} />&nbsp;Email Newsletter</h3>
+            <p>Receive a periodic <Link to="/newsletter/">neighborhood newsletter</Link> with 
+            hyper-local Covid19 updates and NCH news</p>
           </div>
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3 className="content-subhead">
-              <FontAwesomeIcon icon={faMobileAlt} />&nbsp;Chat App
-            </h3>
-            <p>A <a href="https://slack.com/">Slack</a> chat app serves as the neighbor-to-neighbor
-              communication hub for getting to know each other, and organizing/volunteering activity
+            <h3 className="content-subhead"><FontAwesomeIcon icon={faMobileAlt} />&nbsp;Chat App</h3>
+            <p>Use our <Link to="/chat/">private Slack chat</Link> serves as the neighbor-to-neighbor
+              communication hub for getting to know each other and organizing NCH activity.
             </p>
           </div>
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3 className="content-subhead">
-              <FontAwesomeIcon icon={faPhone} />&nbsp;Community Hotline
-            </h3>
+            <h3 className="content-subhead"><FontAwesomeIcon icon={faPhone} />&nbsp;Community Hotline</h3>
             <p>Dial the <Link to="/hotline/">hotline</Link> if your neighbors could help you with anything! 
               Volunteers will respond to your voicemail message.
             </p>
           </div>
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-            <h3 className="content-subhead">
-              <FontAwesomeIcon icon={faQuestion} />&nbsp;...what else?
-            </h3>
-            <p>If you have an idea, <a href="mailto:north.crown.hill@gmail.com">share it!</a></p>
+            <h3 className="content-subhead"><FontAwesomeIcon icon={faQuestion} />&nbsp;...what else?</h3>
+            <p>If you have an idea, <a href="mailto:north.crown.hill@gmail.com">share it</a>! We'll figure 
+              out what's most useful as we experiment.</p>
           </div>
         </div>
         <p>
