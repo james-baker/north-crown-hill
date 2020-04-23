@@ -6,7 +6,7 @@ Timeline so far:
 * March 18th: Canvassed western Dibble and 8th Ave
 * March 19th: Added several folks from Mary Ave's block contact list
 * March 21st: Canvassed on Alderbrook, 8th, 105th. Sent out first North Crown Hill News.
-* March 22nd: Updated map address data. Wrote down [privacy policy](/privacy).
+* March 22nd: Updated map address data. Wrote down [privacy policy](/privacy/).
 * March 23rd: Arrange to take a 7-week sabbatical from my tech job, starting next week, to work on this project.
 * March 28th: Started rebuilding the website using Gatsby.js & modern tech
 * April 3rd: Canvassing up and down the southern block of 12th
@@ -19,5 +19,5 @@ Timeline so far:
 * April 18th: Solved the last technical/coding hurdles for the phone hotline
 * April 19th: Finished off 8th and Alderbrook
 * April 21st: Real calls to test hotline
-* April 22nd: Add to [about](/about) page, add [hotline](/hotline) page
-* April 23rd: Add a [join](/join) page, with a Google Form embedded to streamline signing up
+* April 22nd: Add to [about](/about/) page, add [hotline](/hotline/) page
+* April 23rd: Add a [join](/join/) page, with a Google Form embedded to streamline signing up

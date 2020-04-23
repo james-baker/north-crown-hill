@@ -28,7 +28,7 @@ export default ({ data }) => (
           Let's pull together as a community.
         </p>
         <p className="splash-subhead">
-          <h3><Link to="/join">Click here to join!</Link></h3>
+          <h3><Link to="/join/">Click here to join!</Link></h3>
         </p>
       </div>
     </div>
@@ -54,7 +54,7 @@ export default ({ data }) => (
             <h3 className="content-subhead">
               <FontAwesomeIcon icon={faPhone} />&nbsp;Community Hotline
             </h3>
-            <p>Dial the <Link to="/hotline">hotline</Link> if your neighbors could help you with anything! 
+            <p>Dial the <Link to="/hotline/">hotline</Link> if your neighbors could help you with anything! 
               Volunteers will respond to your voicemail message.
             </p>
           </div>
@@ -67,13 +67,13 @@ export default ({ data }) => (
         </div>
         <p>
           All data collection and handling is described by our{" "}
-          <Link to="/privacy">privacy policy</Link>.
+          <Link to="/privacy/">privacy policy</Link>.
         </p>
 
         <Ribbon>
           <div className="l-box-lrg  is-center">
             <h2 className="content-head content-head-ribbon">Want to get connected?</h2>
-            <h3><Link to="/join" className="pure-button pure-button-primary">Click here to join!</Link></h3>
+            <h3><Link to="/join/" className="pure-button pure-button-primary">Click here to join!</Link></h3>
           </div>
         </Ribbon>
 

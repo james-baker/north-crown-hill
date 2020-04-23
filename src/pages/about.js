@@ -55,7 +55,7 @@ class AboutPage extends Component {
     </div>
     <h3>Why should you trust me with your data?</h3>
     <p>
-        Hopefully this <Link to="/privacy">privacy policy</Link> demonstrates the care I put into protecting any data you share. 
+        Hopefully this <Link to="/privacy/">privacy policy</Link> demonstrates the care I put into protecting any data you share. 
         I've worked for a <a href="https://www.tableau.com">data visualization company</a> for the last dozen years -
         I believe strongly in the power of data to help, and also in the dangers of poorly managed data.  I've
         also had prior experience managing the personally-identifiable data of hundreds of coworkers while 
