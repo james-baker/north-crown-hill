@@ -1,0 +1,17 @@
+#archive-list {
+  display:block;
+  width:450px;
+  margin:15px 0;
+  padding:0;
+  border-top:1px solid #bbb;
+}
+#archive-list li {
+  display:block;
+  list-style:none;
+  margin:0;
+  padding:6px 10px;
+  border-bottom:1px solid #bbb;
+}
+
+.display_archive {}
+.campaign {line-height: 125%; margin: 5px;}
