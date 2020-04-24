@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import Footer from "../components/footer"
 
-class AboutPage extends Component {
+export default class AboutPage extends Component {
 
   componentDidMount() {  
     let divElement = document.getElementById('viz1586295286655');
@@ -71,8 +71,6 @@ class AboutPage extends Component {
   </Layout>
   }
 }
-
-export default AboutPage;
 
 export const query = graphql`
   query {
