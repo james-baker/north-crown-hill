@@ -8,6 +8,8 @@ After you hang up (or press any key), your voicemail and telephone number will p
 
 Need the number? [Just ask for it!](mailto:north.crown.hill@gmail.com) The number is not public, to minimize any spam.
 
+(TODO: Add neighbor support team signup link with Code of Conduct)
+
 Remember, your neighbors are kind but ametuer helpers. This number is not staffed around-the-clock, and all responses are on a "best effort" basis.
 In addition to 911, here are some other helpful numbers you might consider if you are facing a dangerous situation:
 * [Seattle Police Non-Emergency](https://www.seattle.gov/police): [206-625-5011](tel:206-625-5011)
