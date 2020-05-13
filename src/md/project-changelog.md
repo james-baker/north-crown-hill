@@ -21,3 +21,7 @@ Timeline so far:
 * April 21st: Real calls to test hotline
 * April 22nd: Add to [about](/about/) page, add [hotline](/hotline/) page
 * April 23rd: Add a [join](/join/) page, with a Google Form embedded to streamline signing up
+* April 24th: Added first version of [newsletter](/newsletter/) archive listing of past emails
+* April 26th: Canvassed last section of Mary and 100th to finish neighborhood sweep
+* April 28th: Sent [a newsletter](/newsletter-archive/20200428.html) announcing the community [hotline](/hotline/)
+* April 30th: Updated [newsletter](/newsletter/) page with local copy of past emails
