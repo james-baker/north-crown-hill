@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Footer from "../components/footer"
 
@@ -6,7 +7,7 @@ export default ({ data }) => (
   <Layout>
     <div class="content">
       <h1>Join</h1>
-      <p>If you a a resident within the North Crown Hill boundaries, you can join us! Just submit the form below, 
+      <p>If you a a resident within the North Crown Hill <Link to="/who/">boundaries</Link>, you can join us! Just submit the form below, 
         and then wait a day or two to receive a welcome email. If you don't hear back within 72 hours, or have any 
         questions at all, feel free to email <a href="mailto:north.crown.hill@gmail.com">north.crown.hill@gmail.com</a>
       </p>

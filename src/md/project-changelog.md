@@ -25,3 +25,5 @@ Timeline so far:
 * April 26th: Canvassed last section of Mary and 100th to finish neighborhood sweep
 * April 28th: Sent [a newsletter](/newsletter-archive/20200428.html) announcing the community [hotline](/hotline/)
 * April 30th: Updated [newsletter](/newsletter/) page with local copy of past emails
+* May 7th: Ordered door hangers
+* May 16th-16th: Hanging door hangers

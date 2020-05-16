@@ -29,6 +29,7 @@ export default ({ data }) => (
         <p className="splash-subhead">
           <h3><Link to="/join/" className="pure-button pure-button-primary">Click here to join!</Link></h3>
         </p>
+        <p className="splash-subhead"><Link to="/who/">Who/Where</Link> or <Link to="/what/">What</Link> or scroll down to learn more...</p>
       </div>
     </div>
     <div className="content-wrapper">
@@ -70,7 +71,7 @@ export default ({ data }) => (
           </div>
         </Ribbon>
 
-        <h2 className="content-head is-center">Where is it?</h2>
+        <h2 className="content-head is-center">Who belongs? Where is it?</h2>
         <div className="pure-g">
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
             <p>
@@ -87,10 +88,9 @@ export default ({ data }) => (
             </ul>
             <p>
               This encompassess about 350 households in total. Blue Ridge to the
-              west and north, Piper's Creek on the east. If we really get
-              humming, we <i>might</i> decide to extend southward by one block
-              later.
+              west and north, Piper's Creek on the east.
             </p>
+            <p>Don't remember if you've already <Link to="/join/">joined</Link>? You can check the data <Link to="/who/">here</Link>.</p>
           </div>
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
             <a href="https://drive.google.com/open?id=1nwalXQd8cegTBFgPXCqw5PfTMPgiMSn8">
@@ -98,6 +98,8 @@ export default ({ data }) => (
             </a>
           </div>
         </div>
+        <br />
+        <p className="is-center">If you're curious about the organizing behind-the-scenes, <Link to="/about/">click here</Link>.</p>
       </div>
       <Footer />
     </div>

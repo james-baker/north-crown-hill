@@ -14,8 +14,8 @@ export default ({ children }) => (
         <span className="pure-menu-heading" style={{textTransform: 'none'}}
           ><Link to="/" style={{textDecoration: "none", color: "white"}}>North Crown Hill</Link></span>
         <ul className="pure-menu-list">
-          <ListLink to="/">Home</ListLink>
-          <ListLink to="/about/">About</ListLink>
+          <ListLink to="/who/">Who</ListLink>
+          <ListLink to="/what/">What</ListLink>
           <ListLink to="/join/">Join</ListLink>
         </ul>
       </div>
