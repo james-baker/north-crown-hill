@@ -26,4 +26,5 @@ Timeline so far:
 * April 28th: Sent [a newsletter](/newsletter-archive/20200428.html) announcing the community [hotline](/hotline/)
 * April 30th: Updated [newsletter](/newsletter/) page with local copy of past emails
 * May 7th: Ordered door hangers
-* May 16th-16th: Hanging door hangers
+* May 15th: Created the [who](/who/) and [what](/what/) pages
+* May 16th: Hanging door hangers
