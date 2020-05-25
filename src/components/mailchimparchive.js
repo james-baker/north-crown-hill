@@ -10,6 +10,7 @@ export default () => <div>
   <p>Some recent newsletters:</p>
   <ul id="archive-list">
     <div class="display_archive">
+      <ArchiveLink to="/newsletter-archive/20200522.html" date="05/22/2020">North Crown Hill News, May 22nd</ArchiveLink>
       <ArchiveLink to="/newsletter-archive/20200428.html" date="04/28/2020">North Crown Hill: Community Hotline!</ArchiveLink>
       <ArchiveLink to="/newsletter-archive/20200408.html" date="04/08/2020">North Crown Hill News, April 8th</ArchiveLink>
       <ArchiveLink to="/newsletter-archive/20200330.html" date="03/30/2020">North Crown Hill News, March 30th</ArchiveLink>
