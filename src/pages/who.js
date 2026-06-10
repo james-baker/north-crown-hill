@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import { graphql } from "gatsby"
-import Img from "gatsby-image"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Footer from "../components/footer"
 
@@ -17,13 +16,12 @@ export default class AboutPage extends Component {
   }
 
   render() {
-    const data = this.props.data
     return <Layout>
     <div className="content">
     <h1>Who's in North Crown Hill?</h1>
 
     <a href="https://drive.google.com/open?id=1nwalXQd8cegTBFgPXCqw5PfTMPgiMSn8">
-              <Img fixed={data.map.childImageSharp.fixed} alt="Map of NCH boundary" />
+              <StaticImage src="../images/map.jpg" alt="Map of NCH boundary" layout="fixed" width={363} height={363} />
             </a>
     <p>
       North Crown Hill is currently defined as the addresses on or
@@ -57,15 +55,3 @@ export default class AboutPage extends Component {
   </Layout>
   }
 }
-
-export const query = graphql`
-  query {
-    map: file(relativePath: { eq: "images/map.jpg" }) {
-      childImageSharp {
-        fixed(width: 363, height: 363) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-  }
-`

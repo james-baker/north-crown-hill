@@ -10,14 +10,7 @@ module.exports = {
     description: "A neighborhood community support network in Seattle",
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-160650606-1',
-        head: true,
-        siteSpeedSampleRate: 10
-      },
-    },
+    'gatsby-plugin-image',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
