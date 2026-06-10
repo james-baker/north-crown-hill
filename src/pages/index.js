@@ -1,18 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
-import { graphql } from "gatsby"
-import Img from "gatsby-image"
+import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faPhone, faQuestion, faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 import Layout from "../components/layout"
 import Ribbon from "../components/ribbon"
 import Footer from "../components/footer"
 
-export default ({ data }) => (
+export default () => (
   <Layout>
     <div className="splash-container">
       <div className="splash">
-        <Img fixed={data.logo.childImageSharp.fixed} alt="NCH logo" />
+        <StaticImage src="../images/nchlogo.jpg" alt="NCH logo" layout="fixed" width={200} height={200} />
         <h1>
           Building links of human connection
           <br />
@@ -94,7 +93,7 @@ export default ({ data }) => (
           </div>
           <div className="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
             <a href="https://drive.google.com/open?id=1nwalXQd8cegTBFgPXCqw5PfTMPgiMSn8">
-              <Img fixed={data.map.childImageSharp.fixed} alt="Map of NCH boundary" />
+              <StaticImage src="../images/map.jpg" alt="Map of NCH boundary" layout="fixed" width={363} height={363} />
             </a>
           </div>
         </div>
@@ -105,23 +104,4 @@ export default ({ data }) => (
     </div>
   </Layout>
 )
-
-export const query = graphql`
-  query {
-    logo: file(relativePath: { eq: "images/nchlogo.jpg" }) {
-      childImageSharp {
-        fixed(width: 200, height: 200) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    # map comes from https://www.google.com/maps/d/edit?mid=1nwalXQd8cegTBFgPXCqw5PfTMPgiMSn8&ll=47.7032539501008%2C-122.37206642244661&z=16
-    map: file(relativePath: { eq: "images/map.jpg" }) {
-      childImageSharp {
-        fixed(width: 363, height: 363) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-  }
-`
+// map image comes from https://www.google.com/maps/d/edit?mid=1nwalXQd8cegTBFgPXCqw5PfTMPgiMSn8&ll=47.7032539501008%2C-122.37206642244661&z=16

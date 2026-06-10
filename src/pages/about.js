@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Footer from "../components/footer"
 
@@ -28,7 +28,7 @@ export default ({ data }) => (
           </p>
       </div>
       <div className="l-box pure-u-1 pure-u-md-1-3 pure-u-lg-1-3">
-          <Img fixed={data.selfie.childImageSharp.fixed} alt="Selfie of James" />
+          <StaticImage src="../images/jbaker.jpg" alt="Selfie of James" layout="fixed" width={163} height={189} />
       </div>
   </div>
   <h3>Why should you trust me with your data?</h3>
@@ -63,13 +63,6 @@ export const query = graphql`
     technical: file(relativePath: { eq: "md/about-technical.md" }) {
       childMarkdownRemark {
         html
-      }
-    }
-    selfie: file(relativePath: { eq: "images/jbaker.jpg" }) {
-      childImageSharp {
-        fixed(width: 163, height: 189) {
-          ...GatsbyImageSharpFixed
-        }
       }
     }
   }
