@@ -1,5 +1,7 @@
 # NCH Community Hotline
 
+> **This hotline has been retired.** The North Crown Hill community hotline operated during the COVID-19 pandemic. The phone number is no longer active and calls are no longer answered. The description below is kept for the historical record &mdash; and the crisis resources further down may still be helpful to you today.
+
 Your neighbors are here for you! The NCH community hotline is a telephone number for requesting assistance with whatever needs or questions you may have. Any resident of North Crown Hill may call and leave a message at any time - though we're especially excited that we now have a way to connect and support our neighbors who don't have the access or inclination to use the internet.
 
 ## Calling
@@ -20,12 +22,12 @@ In addition to 911, here are some other helpful numbers you might consider if yo
 * [Sexual Assault Hotline](https://www.rainn.org/about-national-sexual-assault-telephone-hotline): [800-656-4673](tel:800-656-4673)
 * [Domestic Violence Hotline](https://www.thehotline.org/): [800-799-7233](tel:800-799-7233)
 * [King County Crisis Clinic](https://www.crisisconnections.org/): [866-427-4747](tel:866-427-4747)
-* [National Suicide Prevention Lifeline](https://suicidepreventionlifeline.org/): [800-273-8255](tel:800-273-8255)
+* [988 Suicide & Crisis Lifeline](https://988lifeline.org/): [988](tel:988)
 * [Substance Abuse & Mental Health Hotline](https://www.samhsa.gov/find-help/national-helpline): [800-662-4357](tel:800-662-4357)
 * [Trans Lifeline](https://www.translifeline.org/): [877-565-8860](tel:877-565-8860)
  
 &nbsp;
 
 ## Volunteering
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3-Or3KJbjH-6NajRuyFkrIOEUK3QcPfF8vsM0D38_62DszQ/viewform?embedded=true"
-        title="NCH Volunteer Signup Form" width="640" height="1050" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+_Volunteer signups are now closed. Thank you to every neighbor who answered a call._

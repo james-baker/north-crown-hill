@@ -12,6 +12,22 @@ export default () => (
     <div className="splash-container">
       <div className="splash">
         <StaticImage src="../images/nchlogo.jpg" alt="NCH logo" layout="fixed" width={200} height={200} style={{ display: "inline-block" }} />
+        <p style={{
+          background: "rgba(255,255,255,0.85)",
+          color: "#333",
+          padding: "0.75em 1.25em",
+          borderRadius: "8px",
+          margin: "1em auto",
+          maxWidth: "620px",
+          fontSize: "0.95em",
+          lineHeight: "1.45em",
+        }}>
+          <strong>Archive.</strong> North Crown Hill was a neighbor-to-neighbor
+          mutual aid network formed in March 2020 during the COVID-19 pandemic.
+          Active operations have since wound down &mdash; the newsletter, chat,
+          and hotline are no longer staffed. This site remains as an archive of
+          what we built together. Thank you, neighbors. &mdash;James
+        </p>
         <h1>
           Building links of human connection
           <br />
