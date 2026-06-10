@@ -11,7 +11,7 @@ export default () => (
   <Layout>
     <div className="splash-container">
       <div className="splash">
-        <StaticImage src="../images/nchlogo.jpg" alt="NCH logo" layout="fixed" width={200} height={200} />
+        <StaticImage src="../images/nchlogo.jpg" alt="NCH logo" layout="fixed" width={200} height={200} style={{ display: "inline-block" }} />
         <h1>
           Building links of human connection
           <br />
